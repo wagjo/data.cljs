@@ -14,7 +14,7 @@
   "Array manipulation."
   (:refer-clojure :exclude [empty empty? count nth peek pop assoc
                             split-at conj reduce reduce-kv assoc!
-                            conj! pop! array?]))
+                            conj! pop! array? clone]))
 
 ;;;; Public API
 
